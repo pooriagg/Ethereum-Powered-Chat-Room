@@ -1,3 +1,3 @@
-# Ethereum-Powered-Chat-Room
+# Ethereum-Powered-OnChain-Chat-Room
 
 Soon !
