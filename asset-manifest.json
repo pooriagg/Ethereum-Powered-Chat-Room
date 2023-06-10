@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ethereum-Powered-Chat-Room/static/css/main.98ec47ca.css",
+    "main.js": "/Ethereum-Powered-Chat-Room/static/js/main.019d973c.js",
+    "index.html": "/Ethereum-Powered-Chat-Room/index.html",
+    "main.98ec47ca.css.map": "/Ethereum-Powered-Chat-Room/static/css/main.98ec47ca.css.map",
+    "main.019d973c.js.map": "/Ethereum-Powered-Chat-Room/static/js/main.019d973c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98ec47ca.css",
+    "static/js/main.019d973c.js"
+  ]
+}
