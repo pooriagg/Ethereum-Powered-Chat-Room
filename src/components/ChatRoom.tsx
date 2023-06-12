@@ -88,7 +88,7 @@ const ChatRoom: React.FunctionComponent = (): JSX.Element => {
                 }); 
             };
             
-            if (checkWallet!()) {
+            if (!checkWallet!()) {
                 return  toast.warn("Wallet is not connected to the network !", {
                     toastId: "Wallet is not connected to the network"
                 });    
