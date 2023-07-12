@@ -83,19 +83,19 @@ const ChatRoom: React.FunctionComponent = (): JSX.Element => {
     const sendMessage = useCallback(async () => {
         try {
             if (!(await checkNetwork!())) {
-                return  toast.warn("Please change your chain, to Polygon-Mumbai Testnet.", {
+                return toast.warn("Please change your chain, to Polygon-Mumbai Testnet.", {
                     toastId: "Incorrect chain detected"
                 }); 
             };
             
             if (!checkWallet!()) {
-                return  toast.warn("Wallet is not connected to the network !", {
+                return toast.warn("Wallet is not connected to the network !", {
                     toastId: "Wallet is not connected to the network"
                 });    
             };
             
             if (!message.length) {
-                return  toast.warn("Enter valid message !", {
+                return toast.warn("Enter valid message !", {
                     toastId: "Enter valid message"
                 });    
             };
